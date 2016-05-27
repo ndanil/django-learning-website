@@ -1,1 +1,1 @@
-"#initial commit" 
+A website for learning django
