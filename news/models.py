@@ -11,6 +11,7 @@ class Author(models.Model):
 
 class News(models.Model):
     title = models.CharField(max_length=50)
+    img = models.ImageField(blank=True, upload_to='images')
     text = models.TextField()
     author = models.ForeignKey(Author, on_delete=models.CASCADE, default=1)
     time = models.DateField()

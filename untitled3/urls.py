@@ -16,10 +16,14 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+from untitled3 import settings
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', 'news.views.index', name='home'),
     url(r'^news/(?P<news_id>[0-9]+)/$', 'news.views.singleNews', name='singleNews'),
     url(r'^index','news.views.index'),
     url(r'^news.html$', 'news.views.news', name='news'),
+    url(r'^media/(?P<path>.*)$','django.views.static.serve',{'document_root' : settings.MEDIA_ROOT}),
+
 ]

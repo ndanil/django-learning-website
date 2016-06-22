@@ -31,7 +31,18 @@ def singleNews(request, news_id):
 
 def news(request):
     latest_question_list = News.objects.all().order_by('time')[:5]
+    menuitems = Menu.objects.all();
+    menus = []
+    for menu in menuitems:
+        lst = menu.menu_set.all()
+        tmp = {}
+        tmp['menu'] = menu
+        tmp['sub'] = None
+        if len(lst) > 0:
+            tmp['sub'] = lst
+        menus.append(tmp)
     context = {
-        'news':latest_question_list
+        'news':latest_question_list,
+        'menus':menus
     }
     return render(request, 'news/news.html', context)
