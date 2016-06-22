@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5703743-8a8e-4d14-b873-5f8ac95540dd" name="Default" comment="Included images in news">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+    <list default="true" id="e5703743-8a8e-4d14-b873-5f8ac95540dd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/templates/news/base.html" afterPath="$PROJECT_DIR$/news/templates/news/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/templates/news/news.html" afterPath="$PROJECT_DIR$/news/templates/news/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled3/urls.py" afterPath="$PROJECT_DIR$/untitled3/urls.py" />
     </list>
     <ignored path="untitled3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -600,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1466576756299</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added fancybox to news images">
+      <created>1466611281317</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1466611281317</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -642,7 +645,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second commit" />
     <MESSAGE value="Included images in news" />
-    <option name="LAST_COMMIT_MESSAGE" value="Included images in news" />
+    <MESSAGE value="added fancybox to news images" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fancybox to news images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
