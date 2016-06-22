@@ -217,14 +217,14 @@
                     {% for tmp in menus %}
                         {% if tmp.menu.menu_class == 'mt' %}
                             <li class="mt">
-                                <a class="active" href="{{ tmp.menu.menu_href }}">
+                                <a href="{{ tmp.menu.menu_href }}">
                                     <i class="{{ tmp.menu.menu_ico }}"></i>
                                     <span>{{ tmp.menu.menu_text }}</span>
                                 </a>
                             </li>
                         {% endif %}
                         {% if tmp.menu.menu_class == 'sub-menu' %}
-                            <li class="sub-menu">
+                            <li class="sub-menu" >
                                 <a href="javascript:;">
                                     <i class="{{ tmp.menu.menu_ico }}"></i>
                                     <span>{{ tmp.menu.menu_text }}</span>
